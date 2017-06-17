@@ -28,14 +28,12 @@ var busUrl = "http://datamall2.mytransport.sg/ltaodataservice/BusArrival?";
 var ltaApiKey = "hGyIzJ05RNmXY6W5KukLBw==";
 
 var generalReplies = [
-    "Hello to you too!\nHow may I help you today?",
-    "Hey there! What would you like me to do today?",
-    "Hi!",
-    "Wassup?",
-    "Hello, how may I be of assistance?",
-    "How's it going?",
-    "How may I assist you today?",
-    "Hiya! How can I help you today?"
+    "Hello!\nTo check bus next bus arrival at bus stop, enter in the following format : \nbus <no.> at <bus stop no.> \n e.g bus 69 at 75009",
+    "Hey there! To check bus next bus arrival at bus stop, enter in the following format : \nbus <no.> at <bus stop no.> \n e.g bus 69 at 75009",
+    "Hi! To check bus next bus arrival at bus stop, enter in the following format : \nbus <no.> at <bus stop no.> \n e.g bus 69 at 75009",
+    "Wassup? To check bus next bus arrival at bus stop, enter in the following format : \nbus <no.> at <bus stop no.> \n e.g bus 69 at 75009",
+    "Greetings! To check bus next bus arrival at bus stop, enter in the following format : \nbus <no.> at <bus stop no.> \n e.g bus 69 at 75009",
+    "Hiya! To check bus next bus arrival at bus stop, enter in the following format : \nbus <no.> at <bus stop no.> \n e.g bus 69 at 75009?"
 ];
 
 // Main dialog with LUIS
