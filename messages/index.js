@@ -28,12 +28,12 @@ var busUrl = "http://datamall2.mytransport.sg/ltaodataservice/BusArrival?";
 var ltaApiKey = "hGyIzJ05RNmXY6W5KukLBw==";
 
 var generalReplies = [
-    "Hello!\nTo check bus next bus arrival at bus stop, enter in the following format(without < >) : \nbus <no.> at <bus stop no.>",
-    "Hey there! To check bus next bus arrival at bus stop, enter in the following format(without < >) : \nbus <no.> at <bus stop no.>",
-    "Hi! To check bus next bus arrival at bus stop, enter in the following format(without < >) : \nbus <no.> at <bus stop no.>",
-    "Wassup? To check bus next bus arrival at bus stop, enter in the following format(without < >) : \nbus <no.> at <bus stop no.>9",
-    "Greetings! To check bus next bus arrival at bus stop, enter in the following format(without < >) : \nbus <no.> at <bus stop no.>",
-    "Hiya! To check bus next bus arrival at bus stop, enter in the following format(without < >) : \nbus <no.> at <bus stop no.>"
+    "Hello! Enter in the following format(without < >) : \nbus <no.> at <bus stop no.> e.g bus 69 at 75009",
+    "Hey there! Enter in the following format(without < >) : \nbus <no.> at <bus stop no.> e.g bus 69 at 75009",
+    "Hi! Enter in the following format(without < >) : \nbus <no.> at <bus stop no.> e.g bus 69 at 75009",
+    "Wassup? Enter in the following format(without < >) : \nbus <no.> at <bus stop no.> e.g bus 69 at 75009",
+    "Greetings! Enter in the following format(without < >) : \nbus <no.> at <bus stop no.> e.g bus 69 at 75009",
+    "Hiya! Enter in the following format(without < >) : \nbus <no.> at <bus stop no.> e.g bus 69 at 75009"
 ];
 
 // Main dialog with LUIS
